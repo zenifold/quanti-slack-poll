@@ -1,9 +1,9 @@
-# /Quanti Slack polling app
+# /Quanti Slack Polling App
 
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![Issues](https://img.shields.io/github/issues-raw/tterb/PlayMusic.svg?maxAge=25000)](https://github.com/Askia/askia-slack-poll/issues)
 
-/askia is a free Slack app created by [Askia](https://www.askia.com) to ask & answer simple polling questions in a Slack workspace. He can be yours right now, simply download him from [here](https://bot.askia.com).
+/askia is a free Slack app created by [Quanti](https://www.askia.com) to ask & answer simple polling questions in a Slack workspace. He can be yours right now, simply download him from [here](https://bot.askia.com).
 
 /askia is open source (licensed under GNU GPL v3), and you can use him to help you decide anything: where you'll be eating for lunch, what time your friends or colleagues want to meet up, ...
 
