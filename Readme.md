@@ -3,9 +3,9 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![Issues](https://img.shields.io/github/issues-raw/tterb/PlayMusic.svg?maxAge=25000)](https://github.com/Askia/askia-slack-poll/issues)
 
-/askia is a free Slack app created by [Quanti](https://www.askia.com) to ask & answer simple polling questions in a Slack workspace. He can be yours right now, simply download him from [here](https://bot.askia.com).
+/quanti is a free Slack app created by [Quanti](https://quanti.consulting) to ask & answer simple polling questions in a Slack workspace. You can use this little buddy right now, just download him from [here](https://bot.quanti.consulting).
 
-/askia is open source (licensed under GNU GPL v3), and you can use him to help you decide anything: where you'll be eating for lunch, what time your friends or colleagues want to meet up, ...
+/quanti is open source (licensed under GNU GPL v3), and you can use him to help you decide anything: where you'll be eating for lunch, what time your friends or colleagues want to meet up, ...
 
 ## Slack
 
@@ -130,20 +130,20 @@ To create a simple poll you can specify question and responses like this:
 
 If the question or the responses contains space they must be wrapped between quotes \" characters like this:
 
-`/askia "What ya wanna drink?" "IPA Beer" "Stout Beer" Other`
+`/quanti "What ya wanna drink?" "IPA Beer" "Stout Beer" Other`
 
 If a response is too long to be displayed as button or if you simply don't want to repeat the whole text of your response in a button. You can select the part of your text that will be displayed as button by using @label{}. in the response text:
 
-`/askia "What ya wanna drink?" "Double @label{IPA}" "Milk @label{Imperial Stout}"`
+`/quanti "What ya wanna drink?" "Double @label{IPA}" "Milk @label{Imperial Stout}"`
 
 --limit
 
-`/askia "What ya wanna drink?" Wine Beer Scotch Pastis Water --limit 1`
+`/quanti "What ya wanna drink?" Wine Beer Scotch Pastis Water --limit 1`
 Sets a limit of responses that a user can votes for. When set to 0 no limit is applied. Default value is set to 0.
 
 --expires
 
-`/askia "What ya wanna drink on Friday?" Wine Beer Water --expires "1d 2h"`
+`/quanti "What ya wanna drink on Friday?" Wine Beer Water --expires "1d 2h"`
 Sets the times before users votes will expires. The times can be expressed like this:
 - for 1 day 1d
 - for 2 hours 2h
@@ -152,10 +152,10 @@ Sets the times before users votes will expires. The times can be expressed like 
 
 --anonymous
 
-`/askia Drink? Wine Beer Water --anonymous`
+`/quanti Drink? Wine Beer Water --anonymous`
 The name of users will not be displayed while they vote--no-anonymous-label/askia Drink? Beer Water --anonymous --no-anonymous-labelWhen the anonymous flag is set, hides the anonymous poll quote at the end of the poll message. 
 
-/askia is licensed by [Askia - automating insight](https://www.askia.com) under [GNU GPL v3](https://github.com/Askia/askia-slack-poll/blob/master/LICENSE).
+/quanti is licensed by [Askia - automating insight](https://www.askia.com) under [GNU GPL v3](https://github.com/Askia/askia-slack-poll/blob/master/LICENSE).
 
 ## Contributing
 
